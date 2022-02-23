@@ -1,0 +1,23 @@
+1. User Creation
+    * Obtain and validate unique username
+    * Make sure username has no instance of the word "admin" (Inc)
+    * Obtain and validate unique email address
+    * Obtain, validate, and hash+salt password (Inc)
+    * Increase parameters to include more attributes (Inc)
+    * store all attributes into user_data_base (Inc)
+    * Allow multiple users to sign-up for an account as the same time (Inc)
+    *
+2. Handle Login
+    * Ask user to enter username and password
+    * Compare username and password to those in database
+    * Lockout user after 4 incorrect login attempts (Inc)
+    * On successful login, allow user to enter commands (Inc)
+    *
+3. Command Terminal
+    * Command to change password (Inc)
+    * Command to change email (Inc)
+    * Make wide array of unique commands that have some actual value (Inc)
+        * Standard user commands (Inc)
+        * Super user commands (Inc)
+4. Client-Server Model
+    * Add SSL secure tunnel (Inc)

@@ -9,6 +9,7 @@ def handle_login(connection):
     connection.sendall(str.encode(password))
 
     response = connection.recv(1024).decode("utf-8")
+    print(response)
     if response == "success":
         start_terminal(connection)
 

@@ -17,7 +17,6 @@ def commands(connection, command):
             current_password = input("Please validate you current password: ")
             connection.sendall(str.encode(current_password))
             response = connection.recv(1024).decode("utf-8")
-            print("response")
         else:
             get_and_validate_password(connection)
 
